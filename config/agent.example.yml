@@ -1,0 +1,13 @@
+chat_model_name: qwen3-max
+embedding_model_name: text-embedding-v4
+# 工单路由配置
+routes_config_path: config/routes.json
+templates_dir: templates
+
+# 记忆存储配置 (Redis)
+memory_max_size: 20
+memory_context_size: 5
+redis_host: 127.0.0.1
+redis_port: 6379
+redis_db: 0
+redis_password:  # 在此填入 Redis 密码

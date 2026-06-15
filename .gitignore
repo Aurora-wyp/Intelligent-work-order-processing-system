@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Chroma 向量库（运行时可重建）
+chroma_db/
+rag/chroma_db/
+
+# 日志
+log/
+*.log
+
+# MD5 去重缓存
+md5_text
+
+# 环境变量 / 敏感配置
+.env
+config/agent.yml
+
+# Claude Code
+.claude/
+
+# 系统文件
+.DS_Store
+Thumbs.db

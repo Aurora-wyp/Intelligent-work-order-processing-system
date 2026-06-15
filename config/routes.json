@@ -1,0 +1,7 @@
+{
+  "refund": "refund_queue",
+  "technical_issue": "tech_queue",
+  "business_inquiry": "sales_queue",
+  "account_issue": "support_queue",
+  "other": "general_queue"
+}
