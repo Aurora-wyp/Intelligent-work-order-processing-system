@@ -18,7 +18,7 @@
 |------|------|
 | Web UI | Streamlit |
 | LLM 框架 | LangChain（Agent + Tools + Middleware） |
-| 大模型 | 通义千问 Qwen3-Max（阿里云 DashScope） |
+| 大模型 | 通义千问 Qwen3.7-Plus（阿里云 DashScope） |
 | 嵌入模型 | text-embedding-v4（DashScope） |
 | 向量数据库 | ChromaDB |
 | 会话存储 | Redis |
@@ -104,7 +104,7 @@ python eval.py
 
 ```yaml
 # LLM 模型配置
-model_name: qwen3-max
+model_name: qwen3.7-plus
 embedding_model: text-embedding-v4
 
 # Redis 配置
