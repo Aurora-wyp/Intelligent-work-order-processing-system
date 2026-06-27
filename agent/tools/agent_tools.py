@@ -43,7 +43,7 @@ def _load_template(ticket_type: str) -> str:
         return f.read()
 
 
-@tool(description="在不确定工单类型和优先级时，从向量存储中检索参考资料")
+@tool(description="当工单问题需要参考历史案例或专业知识时，调用此工具从知识库检索相关解决方案")
 def rag_summarize(query: str) -> str:
     """RAG 知识检索工具。当模型需要查找私有知识时调用此工具。"""
     return rag.rag_summarize(query)

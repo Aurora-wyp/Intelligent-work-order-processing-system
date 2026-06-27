@@ -54,6 +54,7 @@ TEST_CASES: list[TestCase] = [
     TestCase("新手使用你们的系统，有没有操作指南或者培训资料", "business_inquiry", "P3"),
     TestCase("想预约一次产品演示，怎么安排", "business_inquiry", "P3"),
     TestCase("这个功能怎么用？有详细的操作说明吗", "business_inquiry", "P3"),
+    TestCase("能不能开发一个批量导出报表的功能", "business_inquiry", "P3"),
 
     # ── 账户问题类 (account_issue) ──
     TestCase("登录一直提示密码错误，但我确定密码是对的", "account_issue", "P2"),
@@ -62,10 +63,9 @@ TEST_CASES: list[TestCase] = [
     TestCase("忘记密码了，点找回密码收不到邮件", "account_issue", "P2"),
     TestCase("账号被盗了，有人在异地登录了我的账户", "account_issue", "P1"),
     TestCase("实名认证一直审核不通过，已经提交三次了", "account_issue", "P3"),
+    TestCase("想要注销账户并删除所有个人数据", "account_issue", "P3"),
 
     # ── 其他类 (other) ──
-    TestCase("能不能开发一个批量导出报表的功能", "other", "P3"),
-    TestCase("想要注销账户并删除所有个人数据", "other", "P3"),
     TestCase("你们的隐私政策在哪里可以查看", "other", "P3"),
     TestCase("想成为你们的合作伙伴或代理商", "other", "P3"),
     TestCase("用户协议第5条是什么意思，看不明白", "other", "P3"),
