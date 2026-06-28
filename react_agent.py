@@ -46,7 +46,7 @@ class ReactAgent:
         enriched_query = (
             f"【历史工单参考】\n{history_context}\n\n"
             f"【当前用户工单】\n{query}"
-        )
+        ) 
 
         input_dict = {
             "messages": [

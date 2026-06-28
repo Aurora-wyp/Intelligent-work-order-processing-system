@@ -1,4 +1,4 @@
-chat_model_name: qwen3-max
+chat_model_name: qwen3.7-plus
 embedding_model_name: text-embedding-v4
 # 工单路由配置
 routes_config_path: config/routes.json

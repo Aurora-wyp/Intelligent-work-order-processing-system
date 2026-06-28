@@ -35,6 +35,6 @@ class RagSummarizeService():
 
 
 if __name__=="__main__":
-    rag_conf=RagSummarizeService()
-    res=rag_conf.rag_summarize("怎么维修")
+    service=RagSummarizeService()
+    res=service.rag_summarize("怎么维修")
     print(res)
